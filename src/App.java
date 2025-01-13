@@ -57,7 +57,26 @@ public class App {
 
 
     public static int columnRowAddition(int[][] arr, int row, int col){
-        
-        return -1;//placeholder
+        // int rowAddition = 0; 
+		// for(int i = 0; i < 4; i++){
+        //     rowAddition += testArray1[i][col];
+		// }
+        // int columnRowAddition = 0;
+        for(int i = 0; i < 4; i++){
+            for(int j = i; j < 4; j++){
+                columnRowAddition += testArray1.get[i][j];
+            }
+        }
+		return columnRowAddition;
+        // return sumRow;
+        // for(int i = 0; i < 4; i++){
+        //     row += testArray1[i][0];
+        // }
+        // int y = 0;
+        // for(int i = 0; i < 4; i++){
+        //     y += testArray1.get(i);
+        // }
+
+        // return testArray1[x][y];//placeholder
     }
 }
